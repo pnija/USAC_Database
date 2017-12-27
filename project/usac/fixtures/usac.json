@@ -1,0 +1,93 @@
+[
+{
+  "model": "usac.director",
+  "pk": 1,
+  "fields": {
+    "name": "D1"
+  }
+},
+{
+  "model": "usac.director",
+  "pk": 2,
+  "fields": {
+    "name": "D2"
+  }
+},
+{
+  "model": "usac.promoter",
+  "pk": 1,
+  "fields": {
+    "name": "P1"
+  }
+},
+{
+  "model": "usac.promoter",
+  "pk": 2,
+  "fields": {
+    "name": "P2"
+  }
+},
+{
+  "model": "usac.eventtype",
+  "pk": 1,
+  "fields": {
+    "name": "ET1"
+  }
+},
+{
+  "model": "usac.eventtype",
+  "pk": 2,
+  "fields": {
+    "name": "ET2"
+  }
+},
+{
+  "model": "usac.eventtype",
+  "pk": 3,
+  "fields": {
+    "name": "ET3"
+  }
+},
+{
+  "model": "usac.event",
+  "pk": 1,
+  "fields": {
+    "name": "E1",
+    "location": "L1",
+    "state": "S1",
+    "start_date": "2016-05-01",
+    "end_date": "2016-05-09",
+    "flyer_url": "http://test.com",
+    "flyer": "uploads/flyers/24.jpg",
+    "website_url": "http://test.com",
+    "online_reg": "http://test.com",
+    "permit_number": "123",
+    "director": 1,
+    "promoter": 1,
+    "etypes": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "usac.participant",
+  "pk": 1,
+  "fields": {
+    "fname": "F1",
+    "lname": "L1",
+    "address": "A1",
+    "license": "L1"
+  }
+},
+{
+  "model": "usac.participant",
+  "pk": 2,
+  "fields": {
+    "fname": "F2",
+    "lname": "L2",
+    "address": "A2",
+    "license": "L2"
+  }
+}
+]
